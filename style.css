@@ -44,9 +44,9 @@ body{
 }
 @media only screen and (max-width: 600px){
          .container{
-          margin-top: 80px;
+          margin-top: 350px;
           width: 400px;
-          height: 500px;
+          height: 800px;
           background: rgb(187, 13, 13);
           display: flex;
           flex-direction: column;
