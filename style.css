@@ -3,6 +3,13 @@
           padding: 0;
           box-sizing: border-box;
 }
+@media only screen and (max-width: 600px){
+          *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+          }
+}
 body{
           width: 100%;
           height: 100vh;
@@ -15,7 +22,14 @@ body{
 }
 @media only screen and (max-width: 600px) {
           body {
-            background-color: lightblue;
+                    width: 100%;
+                    height: 100vh;
+                    background: royalblue;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-family: sans-serif;
           }
 }
 .container{
@@ -30,10 +44,15 @@ body{
 }
 @media only screen and (max-width: 600px){
          .container{
-          margin-left: 0px;
-          margin-right: 0px;
           margin-top: 80px;
-          cursor: pointer;
+          width: 400px;
+          height: 500px;
+          background: rgb(187, 13, 13);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
          }
 }
 input{
@@ -56,10 +75,19 @@ input:hover{
 }
 @media only screen and (max-width: 600px){
           input{
-                    padding: 10px;
-                    margin-left: 20px;
-                    margin-right: 20px;
-                    width: 37%;
+                    position: absolute;
+                    left: 5%;
+                    top: 5%;
+                    height: 60px;
+                    width: 42%;
+                    font-size: 20px;
+                    background-color: white;
+                    border-radius: 10px;
+                    border-top-style: hidden;
+                    border-right-style: hidden;
+                    border-left-style: hidden;
+                    border-bottom-style: hidden;
+          
           }
 }
 button{
@@ -82,9 +110,20 @@ button:hover{
 }
 @media only screen and (max-width: 600px){
           button{
-                    margin-right: 20px;
-                    width: 37%;
-          } 
+                    position: absolute;
+                    right: 5%;
+                    top: 5%;
+                    height: 60px;
+                    width: 42%;
+                    font-size: 22px;
+                    background-color: white;  
+                    border-radius: 10px;
+                    border-top-style: hidden;
+                    border-right-style: hidden;
+                    border-left-style: hidden;
+                    border-bottom-style: hidden;
+          
+          }
 }
 p{
           
@@ -92,4 +131,13 @@ p{
           font-size: 25px;
           padding-top: 5%;
           display: flex;
+}
+@media only screen and (max-width: 600px){
+          p{
+          
+                    color: white;
+                    font-size: 25px;
+                    padding-top: 5%;
+                    display: flex;
+          }
 }
