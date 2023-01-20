@@ -48,7 +48,7 @@ body{
          .container{
           margin-top: 430px;
           width: 400px;
-          height: 800px;
+          height: 850px;
           background: rgb(187, 13, 13);
           display: flex;
           flex-direction: column;
@@ -82,7 +82,7 @@ input:hover{
                     top: 5%;
                     height: 60px;
                     width: 42%;
-                    font-size: 18px;
+                    font-size: 22px;
                     color: black;
                     background-color: white;
                     border-radius: 10px;
